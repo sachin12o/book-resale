@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('hardhd.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.form-container h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.form-container input {
+    width: 285px;
+    padding: 10px;
+    margin: 10px 0;
+    padding-left: 3px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-container .password-wrapper {
+    position: relative;
+}
+
+ 
+
+.form-container .password-wrapper .toggle-password {
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    width: 20%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #007BFF;
+    font-size: 14px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-container button:hover {
+    background: #0056b3;
+}
+
+.form-container a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+.r_form{
+    text-decoration: none;
+}
+@media (max-width: 450px){
+    .from-container{
+        height: 844px;
+        width: 50%;
+    }
+}
